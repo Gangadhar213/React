@@ -1,0 +1,5 @@
+const heading=React.createElement("h1",{id: "Heading1"},"Hey React")
+const root=ReactDOM.createRoot(document.getElementById("jsc"))
+root.render(heading)
+console.log(root)
+console.log(heading)
